@@ -8,7 +8,7 @@ function App() {
     startOnMount:false,
   })
   return (
-    <div className="App">
+    <div className="App" style={{textAlign:'center'}}>
       {/* default duration : 2s */}
       {/* default start : 0 */}
       <h1>{countUp}</h1>
